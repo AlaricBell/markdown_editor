@@ -1,0 +1,46 @@
+html {
+  position: relative;
+}
+
+html,
+body {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+ul,
+ol,
+a {
+  margin: 0;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+button:hover, button:active, button:focus {
+  outline: none;
+}
+
+input:hover, input:active, input:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=style.css.map */
