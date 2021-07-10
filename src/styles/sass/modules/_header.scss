@@ -1,0 +1,10 @@
+.header {
+  &-editor {
+    @include flexy($dir: row, $just: flex-start, $align: flex-start);
+    color: $color-neon;
+
+    .options {
+      margin-right: auto;
+    }
+  }
+}

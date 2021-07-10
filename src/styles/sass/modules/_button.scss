@@ -1,0 +1,13 @@
+.btn {
+  &-option {
+    border: 1px solid $color-neon;
+    background-color: $color-tertiary;
+    padding: 0.45rem 0.75rem;
+    color: $color-neon;
+    font-weight: weight(bold);
+
+    &.active {
+      background-color: lighten($color-tertiary, 10%);
+    }
+  }
+}

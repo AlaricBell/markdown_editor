@@ -1,0 +1,7 @@
+.navbar {
+  @include flexy($dir: row, $just: space-between, $align: center);
+  padding: 1.25rem 1.75rem;
+  background: $color-primary;
+  color: $color-neon;
+  margin-bottom: 1.75rem;
+}
